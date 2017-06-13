@@ -7,5 +7,5 @@ phases:
                                    --output-template-file NewSamTemplate.yaml
 artifacts:
   files:
-    - target/*
+    - lambdabucket-1/LambdaTest-1.0-SNAPSHOT.jar
     - NewSamTemplate.yaml
