@@ -6,5 +6,5 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: com.infosupport.LambdaHandler::handleRequest
-      Runtime: java
+      Runtime: java8
       CodeUri: s3://LambdaTestBucket/LambdaTest-1.0-SNAPSHOT.jar
