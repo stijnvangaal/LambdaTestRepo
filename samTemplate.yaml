@@ -9,9 +9,8 @@ Resources:
       Runtime: java8
       CodeUri: ./target/LambdaTest-1.0-SNAPSHOT.jar
       Events:
-        LambdaMicroservice:
-          Type: AWS::Serverless::Api
+        GetResource:
+          Type: Api
           Properties:
-            StageName : prod
-            Path: /UserFunctionResource
-            Method: ANY
+            Path: /resource
+            Method: get
