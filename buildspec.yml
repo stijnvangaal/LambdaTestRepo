@@ -8,4 +8,4 @@ phases:
 artifacts:
   files:
     - target/LambdaTest-1.0-SNAPSHOT.jar
-
+    - NewSamTemplate.yaml
