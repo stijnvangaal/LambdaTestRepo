@@ -10,7 +10,8 @@ Resources:
       CodeUri: ./target/LambdaTest-1.0-SNAPSHOT.jar
       Events:
         LambdaMicroservice:
-          Type: api
+          Type: AWS::Serverless::Api
           Properties:
+            StageName : prod
             Path: /UserFunctionResource
             Method: ANY
