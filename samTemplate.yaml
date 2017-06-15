@@ -8,4 +8,3 @@ Resources:
       Handler: com.infosupport.LambdaHandler::handleRequest
       Runtime: java8
       CodeUri: ./target/LambdaTest-1.0-SNAPSHOT.jar
-      
