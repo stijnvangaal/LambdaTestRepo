@@ -77,6 +77,6 @@ public class LambdaHandlerTest {
         handler.handleRequest(inputStream, outputStream, context);
         String s = new String(outputStream.toByteArray());
 
-        Assert.assertEquals("{\"body\":[{\"firstName\":\"stijn\",\"lastName\":\"van Gaal\"}],\"statusCode\":\"200\"}", s);
+        Assert.assertEquals("{\"body\":[{\"firstName\":\"stijn\",\"lastName\":\"van Gaa\"}],\"statusCode\":\"200\"}", s);
     }
 }
