@@ -1,9 +1,9 @@
 version: 0.1
 phases:
-  pre-build:
+  build:
     commands:
       - mvn test
-  build:
+  install:
     commands:
       - mvn package
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket lambdabucket-1
