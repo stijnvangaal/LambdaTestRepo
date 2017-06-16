@@ -13,4 +13,4 @@ Resources:
           Type: Api
           Properties:
             Path: /resource
-            Method: get
+            Method: any
